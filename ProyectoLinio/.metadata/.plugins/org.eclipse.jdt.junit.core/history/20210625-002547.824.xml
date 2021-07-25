@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="LinioHome" project="Linio" tests="2" started="2" failures="0" errors="0" ignored="0">
-  <testsuite name="com.sophossolutions.runner.LinioHome" time="273.183">
-    <testsuite name="Agregar productos carrito de compras linio" time="273.183">
-      <testcase name="Title of your scenario outline" classname="Agregar productos carrito de compras linio" time="235.921"/>
-      <testcase name="Title of your scenario outline" classname="Agregar productos carrito de compras linio" time="37.262"/>
-    </testsuite>
-  </testsuite>
-</testrun>

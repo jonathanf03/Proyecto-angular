@@ -1,9 +1,0 @@
-package com.sophossolutions.pages;
-
-import net.serenitybdd.core.pages.PageObject;
-import net.thucydides.core.annotations.DefaultUrl;
-
-@DefaultUrl("https://www.linio.com.co")
-public class LinioHome extends PageObject {
-
-}

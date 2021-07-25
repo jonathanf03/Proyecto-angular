@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="DespegarHome" project="Despegar" tests="1" started="1" failures="0" errors="0" ignored="0">
-  <testsuite name="com.sophossolutions.runner.DespegarHome" time="71.662">
-    <testsuite name="Buscar vuelo en despegar" time="71.662">
-      <testcase name="Buscar vuelo en despegar" classname="Buscar vuelo en despegar" time="71.662"/>
-    </testsuite>
-  </testsuite>
-</testrun>

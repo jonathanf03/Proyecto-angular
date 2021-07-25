@@ -1,9 +1,0 @@
-package com.sophossolutions.apis;
-
-public class Api {
-
-	
-	public static void ejecutarPost(String endPoint, DataTable infoUser) {
-		
-	}
-}
