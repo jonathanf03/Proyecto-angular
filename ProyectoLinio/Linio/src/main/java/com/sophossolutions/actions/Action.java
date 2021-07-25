@@ -18,6 +18,7 @@ public class Action {
 			By byTextoBuscar, By byBtnBuscar, 
 			String strProducto) {
 		String nombre= "Jonathan";
+		int edad =12;
 		String[] strBusqueda = strProducto.split("-");
 		driver.findElement(byTextoBuscar).sendKeys(strBusqueda[0]);
 		driver.findElement(byBtnBuscar).click();
