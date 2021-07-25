@@ -17,7 +17,7 @@ public class Action {
 	public static void buscarProducto(WebDriver driver, 
 			By byTextoBuscar, By byBtnBuscar, 
 			String strProducto) {
-		
+		String nombre= "Jonathan";
 		String[] strBusqueda = strProducto.split("-");
 		driver.findElement(byTextoBuscar).sendKeys(strBusqueda[0]);
 		driver.findElement(byBtnBuscar).click();
