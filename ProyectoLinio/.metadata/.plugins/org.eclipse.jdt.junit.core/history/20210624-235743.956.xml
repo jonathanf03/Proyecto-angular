@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="LinioHome" project="Linio" tests="2" started="2" failures="0" errors="1" ignored="0">
+  <testsuite name="com.sophossolutions.runner.LinioHome" time="279.821">
+    <testsuite name="Agregar productos carrito de compras linio" time="279.821">
+      <testcase name="Title of your scenario outline" classname="Agregar productos carrito de compras linio" time="43.614"/>
+      <testcase name="Title of your scenario outline" classname="Agregar productos carrito de compras linio" time="236.206">
+        <error>java.lang.Error: Unresolved compilation problem: 
+&#13;
+	at com.sophossolutions.actions.Action.agregarProducto(Unknown Source)&#13;
+	at com.sophossolutions.pages.LinioHome.agregarProducto(LinioHome.java:37)&#13;
+	at com.sophossolutions.stepdefinitions.LinioHomeStepDefinitions.agregoAlCarritoElConMásReseñas(LinioHomeStepDefinitions.java:27)&#13;
+	at ✽.Agrego al carrito el "Televisores-2" con más reseñas(file:///C:/Users/jonathan.castro/OneDrive%20-%20SOPHOS%20SOLUTIONS%20SAS/SEMILLERO%20DE%20AUTOMATIZACIÓN/7.POM/ProyectoLinio/Linio/src/test/resources/com/sophossolutions/features/LinioHome.feature:8)&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

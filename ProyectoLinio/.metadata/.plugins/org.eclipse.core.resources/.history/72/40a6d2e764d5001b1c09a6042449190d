@@ -1,0 +1,36 @@
+package com.sophossolutions.actions;
+
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+public class Action {
+
+
+	//Buscar productos
+	public static void buscarProducto(WebDriver driver, 
+			By byTextoBuscar, By byBtnBuscar, 
+			String strProducto) {
+		
+		driver.findElement(byTextoBuscar).sendKeys(strProducto);
+		driver.findElement(byBtnBuscar).click();
+	}
+	
+	//Seleccionar mejor calificado
+	public static void seleccionarMejorCalificado(WebDriver driver, 
+			By byResultado, By byResultados) {
+		
+		WebElement selectResultado = driver.findElement(byResultado);
+		List<WebElement> valorados = selectResultado.findElements(byResultados);
+		
+		int intPosicion = 0;
+		for(WebElement rActual : resultados) {
+			
+			if()
+		}
+		
+	}
+
+}

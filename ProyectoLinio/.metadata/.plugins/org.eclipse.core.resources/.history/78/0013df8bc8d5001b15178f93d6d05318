@@ -1,0 +1,15 @@
+webdriver.driver = chrome
+webdriver.chrome.driver = src/test/resources/com/sophossolutions/drivers/chromedriver.exe
+webdriver.timeouts.implicitlywait=20000
+webdriver.timeouts.pageLoadTimeout=15000
+webdriver.timeouts.setScriptTimeout=15000
+chrome.switches=--start-maximized,--enable-automation,--no-sandbox,--disable-gpu-sandbox
+chrome_preferences.safebrowsing.enabled=FALSE
+chrome_preferences.behavior=allow
+serenity.project.name=P.O.M - Semillero
+serenity.dry.run=FALSE
+serenity.verbose.steps=FALSE
+serenity.report.encoding=UTF-8
+serenity.compress.filenames=TRUE
+serenity.console.colors=TRUE
+junit.retry.tests=TRUE

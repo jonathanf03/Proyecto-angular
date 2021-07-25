@@ -1,0 +1,14 @@
+#Author: jonathan.castro@sophossolutions.com	
+
+Feature: Get and Post Api
+  I want to use this template for my feature file
+
+  @tag1
+  Scenario: Get and 
+    Given I want to write a step with precondition
+    When I complete action
+      | name  | value | status  |
+      | name1 |     5 | success |
+      | name2 |     7 | Fail    |
+    Then I validate the outcomes
+

@@ -1,0 +1,19 @@
+package com.sophossolutions.apis;
+
+import io.cucumber.datatable.DataTable;
+import io.vavr.collection.Map;
+import net.serenitybdd.rest.SerenityRest;
+
+import java.util.*;
+
+public class Api {
+
+	
+	public static void ejecutarPost(String endPoint, DataTable infoUser) {
+		
+		//Mapeo tabla
+		Map<String, String> body = (Map<String, String>) infoUser.asMap(String.class, String.class);
+		
+		SerenityRest.given().contentType(CONTENT_TYPE);
+	}
+}

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="LinioHome" project="Linio" tests="2" started="2" failures="0" errors="1" ignored="0">
+  <testsuite name="com.sophossolutions.runner.LinioHome" time="55.985">
+    <testsuite name="Agregar productos carrito de compras linio" time="55.985">
+      <testcase name="Title of your scenario outline" classname="Agregar productos carrito de compras linio" time="24.186"/>
+      <testcase name="Title of your scenario outline" classname="Agregar productos carrito de compras linio" time="31.798">
+        <error>org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=91.0.4472.114)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SSBOG5CG0343DG3', ip: '192.168.10.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\JONATH~1.CAS\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:56292}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a653e840995d50f78aa0f841b789c858&#13;
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)&#13;
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#13;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#13;
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)&#13;
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)&#13;
+	at com.sophossolutions.actions.Action.agregarProducto(Action.java:49)&#13;
+	at com.sophossolutions.pages.LinioHome.agregarProducto(LinioHome.java:37)&#13;
+	at com.sophossolutions.stepdefinitions.LinioHomeStepDefinitions.agregoAlCarritoElConMásReseñas(LinioHomeStepDefinitions.java:27)&#13;
+	at ✽.Agrego al carrito el "Televisores-2" con más reseñas(file:///C:/Users/jonathan.castro/OneDrive%20-%20SOPHOS%20SOLUTIONS%20SAS/SEMILLERO%20DE%20AUTOMATIZACIÓN/7.POM/ProyectoLinio/Linio/src/test/resources/com/sophossolutions/features/LinioHome.feature:8)&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

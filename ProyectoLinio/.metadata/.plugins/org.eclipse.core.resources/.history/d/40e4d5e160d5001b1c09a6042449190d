@@ -1,0 +1,18 @@
+package com.sophossolutions.actions;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+
+public class Action {
+
+
+	//Buscar productos
+	public static void buscarProducto(WebDriver driver, 
+			By byTextoBuscar, By byBtnBuscar, 
+			String strProducto) {
+		
+		driver.findElement(byTextoBuscar).sendKeys(strProducto);
+		driver.findElement(byBtnBuscar).click();
+	}
+
+}

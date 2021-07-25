@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="LinioHome" project="Linio" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="com.sophossolutions.runner.LinioHome" time="0.518">
+    <testsuite name="Agregar productos carrito de compras linio" time="0.518">
+      <testcase name="Title of your scenario outline" classname="Agregar productos carrito de compras linio" time="0.439">
+        <skipped>io.cucumber.junit.UndefinedStepException: The step "Yo deseo buscar mi producto en la pagina de linio" is undefined. You can implement it using the snippet(s) below:
+
+@Given("Yo deseo buscar mi producto en la pagina de linio")
+public void yoDeseoBuscarMiProductoEnLaPaginaDeLinio() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+Some other steps were also undefined:
+
+@When("busco {string}")
+public void busco(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("Agrego al carrito el {string} con más reseñas")
+public void agregoAlCarritoElConMásReseñas(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</skipped>
+      </testcase>
+      <testcase name="Title of your scenario outline" classname="Agregar productos carrito de compras linio" time="0.034">
+        <skipped>io.cucumber.junit.UndefinedStepException: The step "Yo deseo buscar mi producto en la pagina de linio" is undefined. You can implement it using the snippet(s) below:
+
+@Given("Yo deseo buscar mi producto en la pagina de linio")
+public void yoDeseoBuscarMiProductoEnLaPaginaDeLinio() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+Some other steps were also undefined:
+
+@When("busco {string}")
+public void busco(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("Agrego al carrito el {string} con más reseñas")
+public void agregoAlCarritoElConMásReseñas(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</skipped>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="LinioHome" project="Linio" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="com.sophossolutions.runner.LinioHome" time="19.936">
+    <testsuite name="Agregar productos carrito de compras linio" time="19.936">
+      <testcase name="Title of your scenario outline" classname="Agregar productos carrito de compras linio" time="19.936">
+        <skipped>io.cucumber.java.PendingException: TODO: implement me&#13;
+	at com.sophossolutions.stepdefinitions.LinioHomeStepDefinitions.yoAgregoAlCarritoDeComprasElMejorCalificado(LinioHomeStepDefinitions.java:27)&#13;
+	at ✽.Yo agrego al carrito de compras el mejor calificado(file:///C:/Users/jonathan.castro/OneDrive%20-%20SOPHOS%20SOLUTIONS%20SAS/SEMILLERO%20DE%20AUTOMATIZACIÓN/7.POM/ProyectoLinio/Linio/src/test/resources/com/sophossolutions/features/LinioHome.feature:8)&#13;
+&#13;
+</skipped>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

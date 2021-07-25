@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Api" project="Api" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="com.sophossolutions.runner.Api" time="0.452">
+    <testsuite name="Crear un Usuario usando Post" time="0.452">
+      <testcase name="Crear un usuario" classname="Crear un Usuario usando Post" time="0.452">
+        <skipped>io.cucumber.junit.UndefinedStepException: The step "Deseo Crear un usuario en "https://reqres.in/"" is undefined. You can implement it using the snippet(s) below:
+
+@Given("Deseo Crear un usuario en {string}")
+public void deseoCrearUnUsuarioEn(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+Some other steps were also undefined:
+
+@When("Envio la información del usuario para {string}")
+public void envioLaInformaciónDelUsuarioPara(String string, io.cucumber.datatable.DataTable dataTable) {
+    // Write code here that turns the phrase above into concrete actions
+    // For automatic transformation, change DataTable to one of
+    // E, List&lt;E&gt;, List&lt;List&lt;E&gt;&gt;, List&lt;Map&lt;K,V&gt;&gt;, Map&lt;K,V&gt; or
+    // Map&lt;K, List&lt;V&gt;&gt;. E,K,V must be a String, Integer, Float,
+    // Double, Byte, Short, Long, BigInteger or BigDecimal.
+    //
+    // For other transformations you can register a DataTableType.
+    throw new io.cucumber.java.PendingException();
+}
+@Then("Valido que la respuesta tenga status {int} y contenga id {int}")
+public void validoQueLaRespuestaTengaStatusYContengaId(Integer int1, Integer int2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</skipped>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

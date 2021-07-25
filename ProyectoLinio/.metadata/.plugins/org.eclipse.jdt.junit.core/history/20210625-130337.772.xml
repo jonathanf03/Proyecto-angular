@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Api" project="Api" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="com.sophossolutions.runner.Api" time="1.09">
+    <testsuite name="Crear un Usuario usando Post" time="1.09">
+      <testcase name="Crear un usuario" classname="Crear un Usuario usando Post" time="1.09"/>
+    </testsuite>
+  </testsuite>
+</testrun>

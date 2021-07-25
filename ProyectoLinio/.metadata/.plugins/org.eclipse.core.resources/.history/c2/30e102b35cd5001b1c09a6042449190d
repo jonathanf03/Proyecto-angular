@@ -1,0 +1,15 @@
+package com.sophossolutions.pages;
+
+import org.openqa.selenium.By;
+
+import net.serenitybdd.core.pages.PageObject;
+import net.thucydides.core.annotations.DefaultUrl;
+
+@DefaultUrl("https://www.linio.com.co")
+public class LinioHome extends PageObject {
+	
+	//Elementos para la busqueda del producto
+	By btnBuscar = By.xpath("//div[@class='input-group-search']//input[@name='q']");
+	
+	
+}

@@ -1,0 +1,14 @@
+#Author: jonathan.castro@sophossolutions.com
+
+Feature: Agregar productos carrito de compras linio
+  Yo deseo automatizar las pruebas de agregar productos al carrito de compras
+
+  @tag2
+  Scenario Outline: Title of your scenario outline
+    Given I want to write a step with <name>
+    When I check for the <value> in step
+    Then I verify the <status> in step
+
+    Examples: 
+      |   producto | 
+      | sillas de oficina |

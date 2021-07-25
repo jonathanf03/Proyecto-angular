@@ -1,0 +1,21 @@
+package com.sophossolutions.pages;
+
+import org.openqa.selenium.By;
+
+import net.serenitybdd.core.pages.PageObject;
+import net.thucydides.core.annotations.DefaultUrl;
+
+@DefaultUrl("https://www.linio.com.co")
+public class LinioHome extends PageObject {
+	
+	//Elementos para la busqueda del producto
+	By byTextoBuscar = By.xpath("//div[@class='input-group-search']//input[@name='q']");
+	By byBtnBuscar = By.xpath("//button[contains(@class,'btn-search')]");
+	
+	//Buscar productos
+	public void buscarProducto(String strProducto) {
+		Action.buscarProducto(detDriver(), byTextoBuscar, byBtnBuscar);
+	}
+	
+	
+}

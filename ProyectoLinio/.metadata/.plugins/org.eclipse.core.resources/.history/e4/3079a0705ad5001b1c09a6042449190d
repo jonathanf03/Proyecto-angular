@@ -1,0 +1,14 @@
+#Author: jonathan.castro@sophossolutions.com
+
+Feature: Agregar productos carrito de compras linio
+  Yo deseo automatizar las pruebas de agregar productos al carrito de compras
+
+  @tag2
+  Scenario Outline: Title of your scenario outline
+    Given Yo deseo buscar mi producto en la pagina de linio
+    When busco <producto>
+    Then Yo agrego al carrito de compras el mejor calificado
+
+    Examples: 
+      |   producto | 
+      | sillas de oficina |
